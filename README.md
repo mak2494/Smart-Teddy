@@ -5,8 +5,8 @@
 Er kombiniert Sensorik, Audioausgabe und visuelle Feedbacksysteme, um Stress zu reduzieren und medizinisches Personal bei der Einschätzung des kindlichen Zustands zu unterstützen.  
 
 ## ⚙️ Funktionen  
-- ❤️ **Pulsmessung:** Erfassung des Herzschlags über einen optischen Pulssensor (z. B. MAX30102).  
-- 🌡️ **Temperaturmessung:** Messung der Körpertemperatur über einen Temperatursensor (z. B. DS18B20).  
+- ❤️ **Pulsmessung:** Erfassung des Herzschlags über einen optischen Pulssensor (MAX30102).  
+- 🌡️ **Temperaturmessung:** Messung der Körpertemperatur über einen Temperatursensor (MLX90614).  
 - 🔊 **Audioausgabe:** Eingebauter Lautsprecher spielt beruhigende Musik oder Geräusche ab.  
 - 😊 **Schmerzskala:** Mehrere Buttons ermöglichen dem Kind, sein Schmerzempfinden auf einer Skala anzugeben.  
 - 💡 **Atemrhythmus-LEDs:** Eine sanft pulsierende LED-Anzeige zeigt den Atemrhythmus und hilft dem Kind, ruhig zu atmen.  Diese kann sich eventuell abhängig von der Pulsmessung verändern um den Kind einen individuellen Atemrhythmus zu zeigen. 
@@ -18,7 +18,7 @@ Der Smart Teddy soll Kinder emotional unterstützen, Angst abbauen und Ärzt:inn
 | Komponente | Beschreibung |
 |-------------|---------------|
 | **Mikrocontroller** | ESP32 |
-| **Sensoren** | Pulssensor (MAX30102), Temperatursensor (DS18B20) |
+| **Sensoren** | Pulssensor (MAX30102), Temperatursensor (MLX90614) |
 | **Ausgabe** | Lautsprecher, LED-Streifen |
 | **Bedienung** | Buttons für Schmerzskala |
 | **Programmiersprache** | MicroPython |
